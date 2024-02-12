@@ -43,10 +43,18 @@ body{
 }
 header{
   height: 60px;
-  background-color: blue;
 }
+header img{
+  width: 50px;
+}
+
+
+
+
+
 .debug{
   border: 1px solid black;
+  
 }
 .pc-nav-left{
   background-color: aqua;
@@ -65,6 +73,9 @@ main{
 .pc-main-content{
   width: 100%;
 }
+.pc-container{
+  width: calc(100% - 50px);
+}
 
 
 
@@ -74,7 +85,7 @@ main{
 
 }
 
-@media only screen and (min-width: 1099px){
+@media only screen and (min-width: 991px){
   .pc-nav-left{
     width: 100px;
   }
