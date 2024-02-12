@@ -36,7 +36,9 @@
 
 
 
-
+.pc-whi{
+  width: 40%;
+}
 body{
   height: 100vh;
   font-family: "Roboto", sans-serif;;
@@ -47,28 +49,23 @@ header{
 .img-mob{
   width: 50px;
 }
-
-
-
-
-
-.debug{
-  border: 1px solid black;
-  
+.pc-hover:hover{
+  background-color: rgba(255, 255, 255, 0.368);
 }
+
+
+
+
+
+
 .pc-nav-left{
-  background-color: aqua;
+  background-image: url(../assets/img/sidebar-bg.png);
+  background-color: #051e34;
   height: 100%;
-  width: 50px;
+  width: 70px;
 }
 main{
   height: 700px;
-}
-.pc-icons{
-  height: 200px;
-}
-.pc-settings{
-  height: 100px;
 }
 .pc-main-content{
   width: 100%;
@@ -88,13 +85,16 @@ main{
 
 @media only screen and (min-width: 991px){
   .pc-nav-left{
-    width: 100px;
+    width: 160px;
   }
   .img-mob{
     display: none;
   }
   .img-desk{
     display: block !important;
+  }
+  .pc-nav-left span{
+    display: inline !important;
   }
   
 }
