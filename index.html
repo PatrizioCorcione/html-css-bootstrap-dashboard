@@ -15,12 +15,16 @@
 <body>
 
   <header class="container-fluid ">
-    <div class="row h-100  align-items-center ">
-      <div class="col-1">
-        <img class="" src="assets/img/mobile-logo.png" alt="">
+    <div class="row h-100 align-items-center ">
+      <div class="col-1 col-lg-2 ">
+        <img class="img-mob" src="assets/img/mobile-logo.png" alt="">
+        <div class="img-desk d-none">
+          <img class="" src="assets/img/logo.svg" alt="">
+        </div>
+        
         
       </div>
-      <div class="col-10 d-flex ">
+      <div class="col-10 col-lg-9   d-flex ">
         <div class="p-2  bg-dark-subtle rounded-start-3 ">
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
@@ -28,8 +32,13 @@
       </div>
       
         
-        <div class="dropdown  col-1">
-          <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="dropdown d-flex align-items-center   col-1  justify-content-end ">
+          <ul class="list-unstyled align-items-center m-0 d-none d-lg-flex ">
+            <li><i class="fa-solid mx-1 fa-bars"></i></li>
+            <li><i class="fa-solid mx-1 fa-circle-question"></i></li>
+            <li><i class="fa-solid mx-1 fa-ellipsis-vertical"></i></li>
+          </ul>
+          <a class="mx-1 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="text-warning  fa-solid fa-bell"></i>
           </a>
         
