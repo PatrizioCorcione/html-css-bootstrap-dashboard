@@ -34,7 +34,7 @@ header{
   width: 70px;
 }
 main{
-  height: 700px;
+  height: calc(100% - 60px);
 }
 .pc-main-content{
   width: 100%;
@@ -70,12 +70,9 @@ table td:not(:first-child) {
 
 
 
-@media only screen and (min-width: 767px){
 
 
-}
-
-@media only screen and (min-width: 991px){
+@media (min-width: 991px){
   .pc-nav-left{
     width: 120px;
   }
