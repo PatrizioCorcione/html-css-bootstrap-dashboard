@@ -1,7 +1,5 @@
 
-.pc-bg-pil{
-  background-color: #155ab9;
-}
+
 .pc-whi{
   width: 40%;
 }
@@ -57,13 +55,13 @@ main{
   padding: 5px;
 }
 .table-px-sm{
-  width: 80px;
+  width: 120px;
 }
 .table-px-m{
-  width: 100px;
+  width: 140px;
 }
 .table-px-lg{
-  width: 150px;
+  width: 160px;
 }
 table th:not(:first-child),
 table td:not(:first-child) {
