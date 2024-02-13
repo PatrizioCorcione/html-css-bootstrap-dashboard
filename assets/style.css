@@ -10,6 +10,7 @@ body{
   font-family: "Roboto", sans-serif;;
 }
 header{
+  background-color: #f8f9fa;
   height: 60px;
 }
 .img-mob{
@@ -20,6 +21,9 @@ header{
 }
 .pc-bg-lgray{
   background-color: #f7f7f7;
+}
+.img-desk{
+  background-color: white;
 }
 
 
@@ -66,14 +70,14 @@ table td:not(:first-child) {
   text-align: center;
 }
 .pc-wcanvas{
-  width: 100%;
+  width: 100% !important;
 }
 
 
 
 @media (min-width: 768px){
   .pc-wcanvas{
-    width: 50%;
+    width: 50% !important;
   }
 
 }
