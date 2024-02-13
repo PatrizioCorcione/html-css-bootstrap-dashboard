@@ -1,35 +1,42 @@
 
-.pc-bg-pil{
-  background-color: #155ab9;
-}
-.pc-whi{
-  width: 40%;
-}
+/*GENERAL*/
+
 body{
   height: 100vh;
   font-family: "Roboto", sans-serif;;
 }
+
 header{
   background-color: #f8f9fa;
   height: 60px;
 }
-.img-mob{
-  width: 50px;
+
+main{
+  height: calc(100% - 60px);
 }
-.pc-hover:hover{
-  background-color: rgba(255, 255, 255, 0.368);
+
+/*UTILITY*/
+
+.pc-container{
+  overflow: auto;
+  width: calc(100% - 50px);
 }
-.pc-bg-lgray{
-  background-color: #f7f7f7;
+
+.pc-whi{
+  width: 40%;
 }
+
+/*HEADER*/
+
 .img-desk{
   background-color: white;
 }
 
+.img-mob{
+  width: 50px;
+}
 
-
-
-
+/*NAV LATERALE*/
 
 .pc-nav-left{
   background-image: url(../assets/img/sidebar-bg.png);
@@ -37,43 +44,51 @@ header{
   height: 100%;
   width: 70px;
 }
-main{
-  height: calc(100% - 60px);
+
+.pc-hover:hover{
+  background-color: rgba(255, 255, 255, 0.368);
 }
-.pc-main-content{
-  width: 100%;
+
+/*NUOVO STUDENTE*/
+
+.pc-bg-pil{
+  background-color: #155ab9;
 }
-.pc-container{
-  overflow: auto;
-  width: calc(100% - 50px);
+
+.pc-bg-pil:hover{
+  background-color: #0e428b;
 }
+
+/*TABLE*/
+
 .table img{
   width: 30px;
 }
-.action{
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10%;
-  padding: 5px;
-}
+
 .table-px-sm{
   width: 120px;
 }
+
 .table-px-m{
   width: 140px;
 }
+
 .table-px-lg{
   width: 160px;
 }
+
 table th:not(:first-child),
 table td:not(:first-child) {
   text-align: center;
 }
+
+/*CANVAS*/
+
 .pc-wcanvas{
   width: 100% !important;
 }
 
-
+/*MEDIA*/
 
 @media (min-width: 768px){
   .pc-wcanvas{
@@ -82,21 +97,8 @@ table td:not(:first-child) {
 
 }
 
-
-
 @media (min-width: 991px){
   .pc-nav-left{
     width: 120px;
   }
-  .img-mob{
-    display: none;
-  }
-  .img-desk{
-    display: block !important;
-  }
-  .pc-nav-left span{
-    display: inline !important;
-  }
-  
-  
 }
