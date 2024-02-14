@@ -17,6 +17,10 @@ main{
 
 /*UTILITY*/
 
+.font-2{
+  font-size: 2rem;
+}
+
 .pc-container{
   overflow: auto;
   width: calc(100% - 50px);
